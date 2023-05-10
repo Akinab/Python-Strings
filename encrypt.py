@@ -1,7 +1,8 @@
 def details ():
     Description = "Encryption"
     Date = "05-10-23"
-    print ("\nDescription: {}\nDate: {}".format (Description , Date))
+    Plain_Text = "the quick brown fox jumps over the lazy dog."
+    print ("\nDescription: {}\nDate: {}\nPlain_Text: {}".format (Description , Date, Plain_Text))
     
 details ()
 
@@ -22,6 +23,6 @@ def encrypt(text):
             encrypted_text += char
     return encrypted_text
 
-text = input("Enter the plain text to be encrypted: ")
+text = input("Copy and Paste the plain text to be encrypted: ")
 encrypted_text = encrypt(text)
 print("Encrypted Text:", encrypted_text)
