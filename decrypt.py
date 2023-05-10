@@ -4,3 +4,6 @@ def details ():
     print ("\nDescription: {}\nDate: {}".format (Description , Date))
     
 details ()
+
+def decrypt(encrypted_text):
+    decrypted_text = ""
