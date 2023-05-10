@@ -23,3 +23,4 @@ def decrypt(encrypted_text):
             decrypted_text += char
     return decrypted_text
 encrypted_text = input("Enter the encrypted text to be decrypted: ")
+decrypted_text = decrypt(encrypted_text)
