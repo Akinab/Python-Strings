@@ -21,3 +21,5 @@ def encrypt(text):
         else:
             encrypted_text += char
     return encrypted_text
+
+text = input("Enter the plain text to be encrypted: ")
