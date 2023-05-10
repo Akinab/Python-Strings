@@ -23,3 +23,4 @@ def encrypt(text):
     return encrypted_text
 
 text = input("Enter the plain text to be encrypted: ")
+encrypted_text = encrypt(text)
