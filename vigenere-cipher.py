@@ -13,3 +13,4 @@ def vigenere_cipher(plaintext, keyword):
     return ''.join(ciphertext)
 plaintext = "THISISTHELASTTASKHOORDAY"
 keyword = "KNIGHTS"
+ciphertext = vigenere_cipher(plaintext, keyword)
