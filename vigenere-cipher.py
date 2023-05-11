@@ -4,3 +4,4 @@ def details ():
     print ("\nDescription: {}\nDate: {}".format (Description , Date))
     
 details ()
+def vigenere_cipher(plaintext, keyword):
