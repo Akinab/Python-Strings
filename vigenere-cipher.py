@@ -11,3 +11,4 @@ def vigenere_cipher(plaintext, keyword):
         shift = key_nums[i % len(keyword)]
         ciphertext.append(chr((ord(c) - 65 + shift) % 26 + 65))
     return ''.join(ciphertext)
+plaintext = "THISISTHELASTTASKHOORDAY"
