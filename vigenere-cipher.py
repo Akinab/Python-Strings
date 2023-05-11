@@ -15,3 +15,4 @@ plaintext = "THISISTHELASTTASKHOORDAY"
 keyword = "KNIGHTS"
 ciphertext = vigenere_cipher(plaintext, keyword)
 statement = "THE CIPHER TEXT IS:"
+print(statement, ciphertext)
